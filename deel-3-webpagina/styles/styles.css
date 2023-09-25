@@ -1,1 +1,68 @@
 /*Schrijf hier jouw css*/
+/*#151E3F space cadet*/
+/*#030027 oxfordblue*/
+/*#F2F3D9 beige*/
+/*#DC9E82 buff*/
+/*#C16E70 old rose*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F3D9;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-height: 10vh;
+    background-color: #030027;
+    color: white;
+
+
+}
+
+.kop-titel {
+    text-align: center;
+}
+
+header h3 {
+    display: flex;
+    flex-grow: 12;
+    justify-content: flex-start;
+
+}
+
+header p {
+    flex-grow: 1;
+
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+}
+
+.block {
+    flex-direction: column;
+    justify-content: flex-end;
+    min-height: 40vh;
+    border-radius: 2%;
+    text-align: center;
+    display: flex;
+    background-color: #C16E70;
+    max-width: 280px;
+    height: 100%;
+}
+
