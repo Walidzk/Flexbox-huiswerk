@@ -1,1 +1,68 @@
 /*Schrijf hier jouw CSS*/
+
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+header {
+    flex-basis: 100px;
+}
+
+.middle-container {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    flex-grow: 1;
+    height: 100vh;
+
+}
+
+.middle-container article {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 13;
+    order: 1;
+}
+
+.middle-container aside {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 4;
+    order: 2;
+}
+
+.middle-container nav {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 4;
+    order: 3;
+}
+
+
+article {
+    display: flex;
+    flex-direction: row;
+    border: 3px dashed purple;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    border: 3px dashed green;
+
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    border: 3px dashed turquoise;
+}
+
+footer {
+    flex-basis: 100px;
+}
+

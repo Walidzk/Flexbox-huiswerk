@@ -1,1 +1,54 @@
 /*Schrijf hier jouw CSS*/
+body {
+    display: flex;
+    flex-direction: row;
+    /*Border: 3px dashed #F4978E;*/
+
+
+}
+
+
+.col-1 {
+
+}
+
+.col-2  {
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+header  {
+    min-height: 20vh;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+
+}
+
+article {
+    flex-basis: auto;
+    flex-grow: 6;
+}
+
+aside {
+    flex-grow: 1;
+
+}
+
+footer {
+    min-height: 20vh;
+}
+
+nav {
+
+    min-height: 100vh;
+    min-width: 20vw;
+}
+
+
